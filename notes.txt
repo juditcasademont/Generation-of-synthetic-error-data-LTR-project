@@ -1,0 +1,5 @@
+pos tags: https://spraakbanken.gu.se/korp/markup/msdtags.html
+seeing essays: https://spraakbanken.gu.se/swell/dev/#svlink=swell
+annotations: https://spraakbanken.gu.se/en/tools/sparv/annotations
+sparv: https://spraakbanken.gu.se/en/tools/sparv
+dalaj: https://spraakbanken.gu.se/en/resources/dalaj
