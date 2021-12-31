@@ -3,3 +3,19 @@ seeing essays: https://spraakbanken.gu.se/swell/dev/#svlink=swell
 annotations: https://spraakbanken.gu.se/en/tools/sparv/annotations
 sparv: https://spraakbanken.gu.se/en/tools/sparv
 dalaj: https://spraakbanken.gu.se/en/resources/dalaj
+
+OTHER STUFF:
+- On same sentences, some tags are different:
+    [('AB', 'Så'), ('VB', 'önskar'), ('PN', 'jag'), ('SN', 'att'), ('PN', 'du'), ('VB', 'betalar'), ('PL', 'tillbaka'), ('PS', 'min'), ('NN', 'kursavgift'), ('AB', 'så'), ('AB', 'snart'), ('KN', 'som'), ('JJ', 'möjligt'), ('MA', '.')]
+    [('KN', 'Så'), ('PN', 'jag'), ('VB', 'önskar'), ('SN', 'att'), ('PN', 'du'), ('VB', 'betalar'), ('PL', 'tillbaka'), ('PS', 'min'), ('NN', 'kursavgift'), ('AB', 'så'), ('AB', 'snart'), ('KN', 'som'), ('JJ', 'möjligt'), ('MA', '.')]
+    --> Så here is once an Adverb and then becomes a Conjunction
+
+- One sentence has no verb, strange:
+    original sentence: [('AB', 'Dessutom'), ('NN', 'kursen'), ('AB', 'inte'), ('JJ', 'bra'), ('PP', 'för'), ('MA', '.')]
+    corrected sentence: [('AB', 'Dessutom'), ('NN', 'kursen'), ('AB', 'inte'), ('JJ', 'bra'), ('PP', 'för'), ('MA', '.')]
+
+- Missing correction in a sentence. 2nd verb is corrected fine, the first one is not:
+    [('VB', 'har'), ('PN', 'jag'), ('AB', 'lite'), ('NN', 'pengar'), ('KN', 'och'), ('VB', 'behöver'), ('PN', 'jag'), ('AB', 'mer'), ('NN', 'pengar'), ('PP', 'för'), ('IE', 'att'), ('VB', 'betala'), ('PP', 'för'), ('NN', 'biljetterna'), ('PP', 'för'), ('NN', 'resan'), ('MA', '.')]
+
+- Words that don't exist: pga
+
