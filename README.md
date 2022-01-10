@@ -1,2 +1,3 @@
 # Generation-of-synthetic-error-data-LTR-project
-1st commit (20/12/21): processed excel file, gotten pos and words for each sentence, finding a way to compare them.
+Final project for the Language Technology Resources course, LT2314
+January 2022
