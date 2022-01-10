@@ -19,3 +19,8 @@ OTHER STUFF:
 
 - Words that don't exist: pga
 
+Problems when corrupting:
+- ('subjektet Stryka : Jag är mycket trött ', 'Stryka subjektet : Jag är mycket trött ') --> stuff before : shouldn't be modified
+- ('Det finns dock tendenser i svenskans utveckling som gör att man kan jämföra det med ett minoritetsspråk hotat ', 'Det finns dock tendenser i svenskans utveckling som gör att man kan jämföra det med ett hotat minoritetsspråk ') --> hotat is not a proper verb to switch here
+- hard to predict how many words modifying e.g. a noun, so the switches are complicated to program
+- example that won't work: Jag vill inte vara med min kusin längre. --> too much distance
